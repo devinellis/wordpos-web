@@ -26,6 +26,7 @@
     "prestart": "echo \n\n\nDon't forget to npm run build\n\n",
     "start": "http-server -a localhost -o docs",
     "prepare": "npm run build",
+    "replace-version": ""
   },
   "dependencies": {
     "wordpos": "^2.0.0"
