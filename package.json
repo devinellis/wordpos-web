@@ -18,6 +18,7 @@
     "dist",
     "samples"
   ],
+  "main": "./dist/wordpos.min.js",
   "scripts": {
     "prebuild": "rm -rf docs && cp -r samples docs && npm run replace-version",
     "build": "node node_modules/wordpos/tools/makeJsonDict.js index data --no-test",
